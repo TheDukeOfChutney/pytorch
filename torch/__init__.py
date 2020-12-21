@@ -21,7 +21,7 @@ if sys.version_info < (3,):
 from ._utils import _import_dotted_name
 from ._utils_internal import get_file_path, prepare_multiprocessing_environment, \
     USE_RTLD_GLOBAL_WITH_LIBTORCH, USE_GLOBAL_DEPS
-from .version import __version__
+from ._version import __version__
 from ._six import string_classes as _string_classes
 
 from typing import Set, Type, TYPE_CHECKING
